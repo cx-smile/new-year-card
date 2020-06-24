@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>新春贺卡</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <script type="text/javascript" src="js/index.js" ></script>
+    <script type="text/javascript">
+    	
+   		document.addEventListener('plusready', function(){
+   			//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+   			
+   		});
+   		
+    </script>
+</head>
+<body>
+<div class="music">
+	<img src="img/music_pointer.png" />
+	<img id="music" class="paly" src="img/music_disc.png" />
+</div>
+<div class="time">
+    <span id="hour"></span><b>:</b>
+    <span id="munite"></span><b>:</b>
+    <span id="second"></span>
+</div>
+<div class="page" id="page1">
+	<div class="bg"></div>
+	<div class="p1_lantern">点击屏幕<br>开启好运2021</div>
+	<div class="p1_f"></div>
+	<div class="p1_words">2021年一一新年特献</div>
+</div>
+<div class="page" id="page2">
+	<div class="bg"></div>
+	<div class="bg_load"></div>
+	<div class="p2_circle"></div>
+	<div class="p2_2021"></div>
+</div>
+<div class="page" id="page3">
+	<div class="bg"></div>
+	<div class="p1_words_logo"></div>
+	<div class="p3_title"></div>
+	<div class="p3_second"></div>
+	<div class="p3_first"></div>
+	<div class="p3_blessing"></div>
+</div>
+<audio autoplay="true">
+	<source src="img/happynewyear.mp3" type="audio/mpeg">
+</audio>
+</body>
+</html>
